@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+CO+Guides&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* navbran */
+#MyNavbar .navbar .navbar-nav a{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto 40px;
+    padding:10px 20px;
+    transition: 0.6s ease;
+}
+#MyNavbar .navbar .navbar-nav a:hover{
+    color: white;
+    background-color: rgba(57, 16, 16, 0.506);
+    border-radius: 15px;
+}
+#MyNavbar .navbar-nav{
+    padding: 5px 40px;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+#MyNavbar a{
+    color: burlywood;
+    font-weight: normal;
+}
+/* MyFont  */
+
+#MyFont #My_carousel img{
+    height:30rem;
+    width: 60rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+/* check-in */
+
+#check-in p{
+    color: burlywood;
+}
+#check-in p span{
+    color: red;
+}
+#check-in input{
+    background-color:  rgb(77, 39, 11);
+    border: none;
+    border-bottom: 1px solid burlywood;
+    color: white;
+    padding: 5px;
+    width: 80%;
+}
+#check-in select{
+    background-color:  rgb(77, 39, 11);
+    border: none;
+    border-bottom: 1px solid burlywood;
+    padding: 5px;
+    color: white;
+    width: 80%;
+}
+#check-in #rooms{
+    width: 95%;
+}
+#check-in .btn{
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid burlywood;
+    margin: 15px 0px;
+    transition: 0.9 ease-in;
+}
+#check-in .btn a{
+    text-decoration: none;
+    color: burlywood;
+    transition: 0.9 ease-in;
+}
+#check-in .btn:hover,
+#check-in .btn a:hover{
+    color: rgb(77, 39, 11);
+    border-radius: 15px;
+    background-color: burlywood;
+    
+}
+/* resevation */
+#reservation form{
+    border:1px solid burlywood;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+#reservation h2{
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 15px;
+    color: rgb(77, 39, 11);
+}
+#reservation form label{
+    color: burlywood;
+    display: block;
+    
+}
+
+#reservation form input{
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid burlywood;
+    margin: 10px 0px 10px 20px;
+    padding: 10px;
+    
+}
+#reservation form .custom-placeholder {
+    color: #610f0f; 
+}
+#reservation form select{
+    border: none;
+    width: 90%;
+    background-color: rgb(77, 39, 11);
+    color: white;
+    border-bottom: 1px solid burlywood;
+    margin: 10px 0px 10px 20px;
+    padding:10px;
+}
+#reservation .btn{
+    padding: 10px 30px;
+    margin-top: 15px !important;
+    border: 1px solid burlywood;   
+    color: burlywood; 
+    transition: 0.7s ease-in-out;
+}
+#reservation .btn:hover{
+    color: rgb(77, 39, 11);
+    border-radius: 20px;
+    background-color: burlywood;
+}
+
+input::-webkit-input-placeholder { /* Chrome, Edge, Safari */
+    color: rgb(156, 129, 94);
+}
+
+
+
+
+
+/* contact  */
+#contact{
+    margin: 50px auto;
+}
+#contact .cont{
+    border: 1px solid burlywood;
+    padding: 15px;
+}
+#contact .form-label{
+    color: burlywood;
+}
+#contact .title{
+    background-color: burlywood;
+    border-radius: 10px;
+}
+#contact h3{
+    color: rgb(77, 39, 11);
+    text-align: center;
+}
+#contact .form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid burlywood;
+}
+#contact .btn{
+    background-color: transparent;
+    border: 1px solid burlywood;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: burlywood;
+    margin-top: 10px;
+    transition: 0.8s ease;
+}
+#contact .btn:hover{
+    background-color: burlywood;
+    color: #610f0f;
+    border-radius: 10px;
+}
+
+/* end contact  */
+
+
+/* question  */
+#question h4{
+    color: burlywood;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#question a{
+    background-color: burlywood;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(77, 39, 11);
+    border-radius: 20px;
+}
+#question .qu-1{
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+#question p{
+    color: burlywood;
+    padding: 12px 20px 10px 15px;
+    font-weight: bold;
+    line-height: 1.3em;
+}
+/* review */
+.reviews{
+    padding-top: 0;
+ }
+ 
+ .reviews .box{
+    text-align: center;
+    user-select: none;
+    padding: 2rem;
+    margin-bottom: 4rem;
+ }
+ 
+ .reviews .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ 
+ .reviews .box h3{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--sub-color);
+ }
+ 
+ .reviews .box p{
+    line-height: 2;
+    font-size: 1.5rem;
+    color: var(--sub-color);
+ }
+ 
+
+/* carousel  */
+
+.testimonial-carousel {
+    background: linear-gradient(135deg, rgb(77, 39, 11) 0%, rgb(77, 39, 11) 100%);
+    padding: 0px 0;
+}
+.testimonial-card {
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid burlywood;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.quote-icon {
+    font-size: 3rem;
+    color: #764ba2;
+    opacity: 0.3;
+}
+
+.carousel-item .lead{
+    color: burlywood;
+    font-size: 15px;
+}
+.carousel-item h5{
+    color: burlywood;
+}
+
+/* footer  */
+
+footer{
+    background-color: burlywood;
+}
+
+footer .location li,
+footer .linkhome li,
+footer .follow li{
+    list-style: none;
+}
+footer .location a,
+footer .linkhome a,
+footer .follow a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+footer .aboutus{
+    font-size: 14px;
+}
